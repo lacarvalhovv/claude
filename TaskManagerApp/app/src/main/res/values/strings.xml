@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gestor de Tarefas</string>
+
+    <!-- Task -->
+    <string name="add_task">Adicionar Tarefa</string>
+    <string name="edit_task">Editar Tarefa</string>
+    <string name="task_title">Título *</string>
+    <string name="task_description">Descrição</string>
+    <string name="save">Guardar</string>
+    <string name="delete">Eliminar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="undo">Desfazer</string>
+    <string name="clear">Limpar</string>
+    <string name="change">Alterar</string>
+
+    <!-- Priority -->
+    <string name="priority">Prioridade</string>
+    <string name="priority_low">Baixa</string>
+    <string name="priority_medium">Média</string>
+    <string name="priority_high">Alta</string>
+
+    <!-- Status -->
+    <string name="status">Estado</string>
+    <string name="status_pending">Pendente</string>
+    <string name="status_in_progress">Em curso</string>
+    <string name="status_completed">Concluída</string>
+
+    <!-- Filter -->
+    <string name="filter_all">Todas</string>
+    <string name="filter_pending">Pendentes</string>
+    <string name="filter_in_progress">Em Curso</string>
+    <string name="filter_completed">Concluídas</string>
+
+    <!-- Alert -->
+    <string name="alert">Alerta</string>
+    <string name="enable_alert">Ativar Alerta Sonoro</string>
+    <string name="alert_set">Alerta configurado</string>
+    <string name="pick_date_time">Escolher Data/Hora</string>
+    <string name="no_date_selected">Sem data selecionada</string>
+    <string name="select_sound">Selecionar Som de Alerta</string>
+    <string name="sound">Som</string>
+    <string name="sound_default">Padrão</string>
+    <string name="repeating_alert">Repetir Alerta</string>
+    <string name="repeat_interval_minutes">Intervalo (minutos)</string>
+    <string name="select_alert_time">Por favor selecione data e hora do alerta</string>
+    <string name="alert_time_past">O horário do alerta deve ser no futuro</string>
+    <string name="title_required">O título é obrigatório</string>
+    <string name="task_reminder">Lembrete de tarefa</string>
+    <string name="snooze_10min">Adiar 10 min</string>
+    <string name="dismiss">Dispensar</string>
+
+    <!-- Messages -->
+    <string name="no_tasks">Sem tarefas.\nToque no + para adicionar!</string>
+    <string name="task_deleted">Tarefa eliminada</string>
+    <string name="delete_task">Eliminar Tarefa</string>
+    <string name="delete_task_confirm">Eliminar \'%1$s\'?</string>
+    <string name="clear_completed">Limpar Concluídas</string>
+    <string name="clear_completed_confirm">Remover todas as tarefas concluídas?</string>
+    <string name="all_tasks_done">Tudo concluído!</string>
+    <string name="notification_permission_needed">Permissão de notificações necessária para alertas</string>
+
+    <!-- Plurals placeholder -->
+    <plurals name="pending_tasks">
+        <item quantity="one">%d tarefa pendente</item>
+        <item quantity="other">%d tarefas pendentes</item>
+    </plurals>
+</resources>
